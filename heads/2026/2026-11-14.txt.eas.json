@@ -1,0 +1,70 @@
+{
+  "sig": {
+    "version": 2,
+    "uid": "0x583884aba9ee2dadcda4387f205666a4bfba653a91f17d0634608e17cc3e3d37",
+    "domain": {
+      "name": "EAS Attestation",
+      "version": "0.26",
+      "chainId": "1",
+      "verifyingContract": "0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587"
+    },
+    "primaryType": "Attest",
+    "message": {
+      "version": 2,
+      "schema": "0xdd51457176f2e712c68098496811576e2ad91e3ff080364e3028d8f99d021249",
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "time": "1794693616",
+      "expirationTime": "0",
+      "revocable": false,
+      "refUID": "0x9e0cf37b05a9c8d169c77ace8a9b56f4c317ce7e8198b3df3227c8c8cf30a7bf",
+      "data": "0x000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c000d54a598db72e3538a3a924627132e3eb3cb842d92c22797f511d11027bec0e58529363afe7757b044fda0e0bc8d01f1f90f0ec4a48eb2bc90c54a79a817810000000000000000000000000000000000000000000000000000000000000000f6461696c792d6769742d68656164730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a323032362d31312d313400000000000000000000000000000000000000000000",
+      "salt": "0xefc2e55d4642459be0076e22f0d84a78b76eb436fbad3ee61df2f4847b31c775"
+    },
+    "types": {
+      "Attest": [
+        {
+          "name": "version",
+          "type": "uint16"
+        },
+        {
+          "name": "schema",
+          "type": "bytes32"
+        },
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "time",
+          "type": "uint64"
+        },
+        {
+          "name": "expirationTime",
+          "type": "uint64"
+        },
+        {
+          "name": "revocable",
+          "type": "bool"
+        },
+        {
+          "name": "refUID",
+          "type": "bytes32"
+        },
+        {
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "name": "salt",
+          "type": "bytes32"
+        }
+      ]
+    },
+    "signature": {
+      "v": 27,
+      "r": "0x873d170dcaba19c5de41b3b62d62a319d48f999c1eafa737192c72a5cfb4357e",
+      "s": "0x0e41204a8148a14d4887e620dc37cf0bf2421bdb2b55bfe0e9df3450a9d996bf"
+    }
+  },
+  "signer": "0xe672E1fCB52ec16271824e5f3F913E758E40A1D6"
+}
