@@ -1,0 +1,8 @@
+La Vigilia · daily Git heads
+date: 2026-11-20
+written: 2026-11-20T23:00:05+01:00
+previous: sha256 99606e03271de21162fc018a53c7111aa4b1fa27c6c80fd913ad6706cad2eb45 heads/2026/2026-11-19.txt
+
+steering     3de1494b313a06aa1a71e3f04dc120667be0887e
+doctrine     2b1a5024371997e0882d43c8f3cc51e550ca9651
+situations   60f5e88db52013650db36f782c0e998a948164ea
